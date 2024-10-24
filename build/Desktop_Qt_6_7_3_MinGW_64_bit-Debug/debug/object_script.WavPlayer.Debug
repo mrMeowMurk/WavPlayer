@@ -1,0 +1,14 @@
+debug/main.o
+debug/MainWindow.o
+debug/PortAudioWraper.o
+debug/Storage.o
+debug/Volume.o
+debug/WavReader.o
+debug/__kiss_fft.o
+debug/__kiss_fftr.o
+debug/kissfftr.o
+debug/QmlAqualizer.o
+debug/wavplayer_qmltyperegistrations.o
+debug/qrc_resource.o
+debug/moc_MainWindow.o
+debug/moc_QmlAqualizer.o

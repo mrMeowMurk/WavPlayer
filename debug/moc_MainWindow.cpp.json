@@ -1,0 +1,165 @@
+{
+    "classes": [
+        {
+            "className": "MainWindow",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "currentProgress",
+                    "notify": "testSignal",
+                    "read": "getProgress",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setProgress"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "m_time",
+                    "notify": "timeChange",
+                    "read": "getTime",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setTime"
+                }
+            ],
+            "qualifiedClassName": "MainWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "testSignal",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "timeChange",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "description",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "notification",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checked",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "indexInp",
+                            "type": "int"
+                        },
+                        {
+                            "name": "indexOut",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "testOpen",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "inputDevice",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "name": "outputDevice",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checked",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "file",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "openFile",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checked",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "closeFile",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "float"
+                        }
+                    ],
+                    "name": "test_setVolumeTarget",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "currentVolume",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "painter",
+                            "type": "Aqualizer2*"
+                        }
+                    ],
+                    "name": "setPainter",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "onDrawSpectrum",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MainWindow.h",
+    "outputRevision": 68
+}

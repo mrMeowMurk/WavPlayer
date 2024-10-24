@@ -1,0 +1,23 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "Aqualizer2",
+            "object": true,
+            "qualifiedClassName": "Aqualizer2",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "QmlAqualizer.h",
+    "outputRevision": 68
+}
